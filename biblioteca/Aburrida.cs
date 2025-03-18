@@ -13,12 +13,12 @@ public class EstadoAburrido : EstadoMascota
     {
         TimeSpan tiempoAburrido = DateTime.Now - inicioAburrimiento;
         if (tiempoAburrido.TotalMinutes > 80)
-            mascota.CambiarEstado(new EstadoContento(mascota.Felicidad));
+            mascota.CambiarEstado(new EstadoContento(mascota,mascota.Felicidad));
     }
 
     public void Jugar(Mascota mascota)
     {
-        mascota.CambiarEstado(new EstadoContento(mascota.Felicidad));
+        mascota.CambiarEstado(new EstadoContento(mascota,mascota.Felicidad));
     }
 
     public bool PuedeJugar() => true;

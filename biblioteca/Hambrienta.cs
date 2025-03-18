@@ -6,7 +6,7 @@ public class EstadoHambriento : EstadoMascota
 {
     public void Comer(Mascota mascota)
     {
-        mascota.CambiarEstado(new EstadoContento(mascota.Felicidad));
+        mascota.CambiarEstado(new EstadoContento(mascota,mascota.Felicidad));
     }
 
     public void Jugar(Mascota mascota)

@@ -9,3 +9,4 @@ C:\Users\Lab15-PC01\Downloads\Tamagotchi\biblioteca\obj\Debug\net8.0\biblioteca.
 C:\Users\Lab15-PC01\Downloads\Tamagotchi\biblioteca\obj\Debug\net8.0\refint\biblioteca.dll
 C:\Users\Lab15-PC01\Downloads\Tamagotchi\biblioteca\obj\Debug\net8.0\biblioteca.pdb
 C:\Users\Lab15-PC01\Downloads\Tamagotchi\biblioteca\obj\Debug\net8.0\ref\biblioteca.dll
+C:\Users\Lab15-PC01\Downloads\Tamagotchi\biblioteca\obj\Debug\net8.0\biblioteca.sourcelink.json

@@ -4,8 +4,9 @@ public class EstadoContento : EstadoMascota
 {
     private int vecesJugadas;
 
-    public EstadoContento(int felicidadInicial)
+    public EstadoContento(Mascota mascota,int felicidadInicial)
     {
+        mascota.Felicidad = felicidadInicial; 
         vecesJugadas = 0;
     }
 
